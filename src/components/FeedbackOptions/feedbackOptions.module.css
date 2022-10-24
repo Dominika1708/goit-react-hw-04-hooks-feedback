@@ -1,0 +1,21 @@
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #d4d4d4;
+  box-shadow: 3px 3px 5px 1px #dddddd;
+  transition: box-shadow 100ms ease-in ;
+}
+
+.button:hover {
+    box-shadow: none;
+}
+
+.button:active {
+  box-shadow: 3px 3px 5px 1px #dddddd inset;
+}
